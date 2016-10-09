@@ -1,0 +1,14 @@
+#:E:\workspaces\EgojitCms\src\Comm\Comm.xproj
+#:E:\workspaces\EgojitCms\src\BLL\BLL.xproj
+E:\workspaces\EgojitCms\src\BLL\BLL.xproj|E:\workspaces\EgojitCms\src\Comm\Comm.xproj
+E:\workspaces\EgojitCms\src\BLL\BLL.xproj|E:\workspaces\EgojitCms\src\Db\DAL.xproj
+E:\workspaces\EgojitCms\src\BLL\BLL.xproj|E:\workspaces\EgojitCms\src\Models\Models.xproj
+E:\workspaces\EgojitCms\src\Db\DAL.xproj|E:\workspaces\EgojitCms\src\Models\Models.xproj
+#:E:\workspaces\EgojitCms\src\EgojitCms\UI.xproj
+E:\workspaces\EgojitCms\src\EgojitCms\UI.xproj|E:\workspaces\EgojitCms\src\BLL\BLL.xproj
+E:\workspaces\EgojitCms\src\EgojitCms\UI.xproj|E:\workspaces\EgojitCms\src\Comm\Comm.xproj
+E:\workspaces\EgojitCms\src\EgojitCms\UI.xproj|E:\workspaces\EgojitCms\src\Models\Models.xproj
+E:\workspaces\EgojitCms\src\BLL\BLL.xproj|E:\workspaces\EgojitCms\src\Comm\Comm.xproj
+E:\workspaces\EgojitCms\src\BLL\BLL.xproj|E:\workspaces\EgojitCms\src\Db\DAL.xproj
+E:\workspaces\EgojitCms\src\BLL\BLL.xproj|E:\workspaces\EgojitCms\src\Models\Models.xproj
+E:\workspaces\EgojitCms\src\Db\DAL.xproj|E:\workspaces\EgojitCms\src\Models\Models.xproj
