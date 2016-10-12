@@ -27,5 +27,15 @@ namespace EgojitCms.web.Models
         /// </summary>
         public DbSet<Account> Accounts { get; set; }
 
+        /// <summary>
+        /// 网站信息
+        /// </summary>
+        public DbSet<WebSiteInfo> WebSiteInfos { get; set; }
+
+         /// <summary>
+        /// 频道信息
+        /// </summary>
+        public DbSet<SysChannel> Channels { get; set; }
+
     }
 }

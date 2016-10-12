@@ -37,6 +37,26 @@ namespace Web.Migrations
                     b.ToTable("Accounts");
                 });
 
+            modelBuilder.Entity("EgojitCms.web.Models.SysChannel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Mark");
+
+                    b.Property<string>("Name")
+                        .HasAnnotation("MaxLength", 20);
+
+                    b.Property<int>("Sort");
+
+                    b.Property<string>("Title")
+                        .HasAnnotation("MaxLength", 40);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Channels");
+                });
+
             modelBuilder.Entity("EgojitCms.web.Models.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -59,6 +79,25 @@ namespace Web.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("EgojitCms.web.Models.WebSiteInfo", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("WebDesc")
+                        .HasAnnotation("MaxLength", 140);
+
+                    b.Property<string>("WebKey")
+                        .HasAnnotation("MaxLength", 80);
+
+                    b.Property<string>("WebName")
+                        .HasAnnotation("MaxLength", 40);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("WebSiteInfos");
                 });
 
             modelBuilder.Entity("EgojitCms.web.Models.Account", b =>

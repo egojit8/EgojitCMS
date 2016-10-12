@@ -16,7 +16,6 @@ namespace EgojitCms
             //optionsBuilder.UseSqlite("Filename=./egojitcms.db");
         }
 
-
         /// <summary>
         /// 用户
         /// </summary>
@@ -26,6 +25,16 @@ namespace EgojitCms
         /// 账户
         /// </summary>
         public DbSet<Account> Accounts { get; set; }
+
+        /// <summary>
+        /// 网站信息
+        /// </summary>
+        public DbSet<WebSiteInfo> WebSiteInfos { get; set; }
+
+         /// <summary>
+        /// 频道信息
+        /// </summary>
+        public DbSet<SysChannel> Channels { get; set; }
 
     }
 }
