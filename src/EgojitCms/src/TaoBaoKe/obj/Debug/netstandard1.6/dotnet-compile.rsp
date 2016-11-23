@@ -31,7 +31,9 @@
 --reference:C:\Users\egojit\.nuget\packages\System.Linq.Expressions\4.1.0\ref\netstandard1.6\System.Linq.Expressions.dll
 --reference:C:\Users\egojit\.nuget\packages\System.Net.Http\4.1.0\ref\netstandard1.3\System.Net.Http.dll
 --reference:C:\Users\egojit\.nuget\packages\System.Net.Primitives\4.0.11\ref\netstandard1.3\System.Net.Primitives.dll
+--reference:C:\Users\egojit\.nuget\packages\System.Net.Requests\4.0.11\ref\netstandard1.3\System.Net.Requests.dll
 --reference:C:\Users\egojit\.nuget\packages\System.Net.Sockets\4.1.0\ref\netstandard1.3\System.Net.Sockets.dll
+--reference:C:\Users\egojit\.nuget\packages\System.Net.WebHeaderCollection\4.0.1\ref\netstandard1.3\System.Net.WebHeaderCollection.dll
 --reference:C:\Users\egojit\.nuget\packages\System.ObjectModel\4.0.12\ref\netstandard1.3\System.ObjectModel.dll
 --reference:C:\Users\egojit\.nuget\packages\System.Reflection\4.1.0\ref\netstandard1.5\System.Reflection.dll
 --reference:C:\Users\egojit\.nuget\packages\System.Reflection.Extensions\4.0.1\ref\netstandard1.0\System.Reflection.Extensions.dll

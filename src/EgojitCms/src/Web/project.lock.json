@@ -4146,6 +4146,20 @@
         "runtime": {
           "netcoreapp1.0/Models.dll": {}
         }
+      },
+      "TaoBaoKe/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.6",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.Net.Requests": "4.0.11"
+        },
+        "compile": {
+          "netstandard1.6/TaoBaoKe.dll": {}
+        },
+        "runtime": {
+          "netstandard1.6/TaoBaoKe.dll": {}
+        }
       }
     }
   },
@@ -10472,6 +10486,11 @@
       "type": "project",
       "path": "../Models/project.json",
       "msbuildProject": "../Models/Models.xproj"
+    },
+    "TaoBaoKe/1.0.0": {
+      "type": "project",
+      "path": "../TaoBaoKe/project.json",
+      "msbuildProject": "../TaoBaoKe/TaoBaoKe.xproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10495,7 +10514,8 @@
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 1.0.0",
       "Microsoft.NETCore.App >= 1.0.1",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0",
-      "Models >= 1.0.0-*"
+      "Models >= 1.0.0-*",
+      "TaoBaoKe >= 1.0.0-*"
     ],
     ".NETCoreApp,Version=v1.0": []
   },

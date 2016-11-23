@@ -25,7 +25,8 @@
     "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
     "BLL": "1.0.0-*",
     "Comm": "1.0.0-*",
-    "Models": "1.0.0-*"
+    "Models": "1.0.0-*",
+    "TaoBaoKe": "1.0.0-*"
   },
 
   "tools": {
